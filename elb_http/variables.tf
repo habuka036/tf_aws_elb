@@ -41,7 +41,3 @@ variable "health_check_target" {
   // The format is like `HTTPS:443/health`
 }
 
-// Variables for providers used in this module
-variable "aws_access_key" {}
-variable "aws_secret_key" {}
-variable "aws_region" {}
