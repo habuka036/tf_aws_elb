@@ -41,3 +41,7 @@ variable "health_check_target" {
   // The format is like `HTTPS:443/health`
 }
 
+variable "instances" {
+  description = "instances"
+  default = []
+}

@@ -29,4 +29,6 @@ resource "aws_elb" "elb" {
   }
 
   cross_zone_load_balancing = true
+
+  instances = ["${var.instances}"]
 }
